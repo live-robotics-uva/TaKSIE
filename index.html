@@ -128,13 +128,13 @@
                   </a>
                 </span>
                 <!-- Dataset Link. -->
-                <span class="link-block">
+                <!-- <span class="link-block">
                   <a href="" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="far fa-images"></i>
                     </span>
-                    <span>Data</span>
-                  </a>
+                    <span>Data</span> -->
+                  <!-- </a> -->
               </div>
 
             </div>
@@ -159,7 +159,7 @@
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
           <div>
-            <img src="./static/images/motivation.png" class="interpolation-image"
+            <img src="./static/images/motivation.jpg" class="interpolation-image"
               alt="Interpolate start reference image." />
           </div>
 
@@ -167,21 +167,12 @@
           <div class="content has-text-justified">
 
             <p>
-              Understanding progress of a task allows humans to not only track what has been done but also to better
-              plan for future goals.
-              We demonstrate TaKSIE, a novel framework that incorporates task progress knowledge into visual subgoal
-              generation for robotic manipulation tasks.
-
-              We jointly train a recurrent network with a latent diffusion model to generate the next visual subgoal
-              based on the robot's current observation and the input language command.
-            </p>
-            <p>
-              At execution time, the robot leverages a visual progress representation to monitor the task progress and
-              adaptively samples the next visual subgoal from the model to guide the manipulation policy.
-              We train and validate our model in simulated and real-world robotic tasks, achieving state-of-the-art
-              performance on the CALVIN manipulation benchmark.
-              We find that the inclusion of task progress knowledge can improve the robustness of trained policy for
-              different initial robot poses or various movement speeds during demonstrations.
+              Understanding the progress of a task allows humans to not only track what has been done but also to better plan for future goals.
+              We demonstrate TaKSIE, a novel framework that incorporates task progress knowledge into visual subgoal generation for robotic manipulation tasks.
+              We jointly train a recurrent network with a latent diffusion model to generate the next visual subgoal based on the robot's current observation and the input language command.
+              At execution time, the robot leverages a visual progress representation to monitor the task progress and adaptively samples the next visual subgoal from the model to guide the manipulation policy.
+              We train and validate our model in simulated and real-world robotic tasks, achieving state-of-the-art performance on the CALVIN manipulation benchmark.
+              We find that the inclusion of task progress knowledge can improve the robustness of trained policy for different initial robot poses or various movement speeds during demonstrations.
             </p>
 
           </div>
@@ -212,7 +203,7 @@
       <!--/ Paper video. -->
       <h2 class="title is-3 has-text-centered">Keyframe Selection</h2>
       <div>
-        <img src="./static/images/keyframe_selection.png" class="interpolation-image" alt="Interpolate start reference image." />
+        <img src="./static/images/keyframe_selection.png" class="interpolation-image" alt="Interpolate start reference image." style="width: 50%; height: auto; display: block; margin: 0 auto;" />
       </div>
       <p>
         Comparison between TaKSIE ground-truth (GT) subgoal selection strategy (red arrows, two frames on the right) and fixed-interval subgoal selection strategy (black arrows, two frames at the top).
